@@ -29,7 +29,7 @@ NSString *currentURL = @"https://testfmsapp.cedarhd.com/";
     
     NSString *urlStr = @"https://www.baidu.com";
     
-    //先调用接口,获取图片地址,这里省略获取步骤.
+    //先调用接口,获取图片地址和跳转页面地址,这里省略获取步骤.
     RBADWindow *ADWindow = [[RBADWindow alloc]init];
     ADWindow.imageSize = CGSizeMake([UIScreen mainScreen].bounds.size.width /2, [UIScreen mainScreen].bounds.size.height /2);
     ADWindow.imageUrl = imageUrl;
